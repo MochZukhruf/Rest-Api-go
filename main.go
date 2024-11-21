@@ -2,7 +2,6 @@ package main
 
 import (
 	"rest-api/controllers/productcontroller"
-	"rest-api/models"
 
 	"github.com/gin-gonic/gin"
 )
@@ -10,7 +9,7 @@ import (
 func main() {
 	r := gin.Default();
 
-	models.ConnectDatabase()
+	// models.ConnectDatabase()
 
 
 	r.GET("/api/products", productcontroller.Index)
@@ -19,5 +18,5 @@ func main() {
 	r.PUT("/api/products/:id", productcontroller.Update)
 	r.DELETE("/api/products", productcontroller.Delete)
 
-	r.Run()
+	r.Run(":8080")
 }

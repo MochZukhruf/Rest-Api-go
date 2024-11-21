@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nama_produk": "Product 1",
+    "deskripsi": "Description of product 1"
+  },
+  {
+    "id": 2,
+    "nama_produk": "Product 2",
+    "deskripsi": "Description of product 2"
+  },
+  {
+    "id": 3,
+    "nama_produk": "Celana",
+    "deskripsi": "Celana Besar"
+  }
+]
